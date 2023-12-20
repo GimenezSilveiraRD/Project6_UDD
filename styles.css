@@ -1,0 +1,67 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ddd;
+}
+
+/* Estilos de las Secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Estilos de los Títulos */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilos de Proyectos */
+#proyectos article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para pantallas pequeñas (Responsive Design) */
+@media screen and (max-width: 600px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #proyectos article {
+        margin: 10px 0;
+    }
+}
