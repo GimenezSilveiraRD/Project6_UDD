@@ -33,6 +33,18 @@ section {
     margin: 20px 0;
 }
 
+.github-link {
+    color: #080808; /* O el color que prefieras */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Ajusta según tus necesidades */
+}
+
+.github-link i {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
 /* Estilos de los Títulos */
 h1, h2, h3 {
     color: #333;
@@ -75,13 +87,13 @@ footer {
 
 /* Estilos para la imagen en Sobre Mí */
 #sobre-mi img {
-    max-width: 200px; /* Ajusta esto según tus necesidades */
+    max-width: 200px; 
     margin-right: 20px;
 }
 
 /* Estilos para el texto en Sobre Mí */
 #sobre-mi div {
-    max-width: 600px; /* Ajusta esto según tus necesidades */
+    max-width: 600px; 
 }
 /* Estilos para la sección de Contacto */
 #contacto {
@@ -136,5 +148,26 @@ form button:hover {
     background-color: #555;
 }
 
+#sobre-mi {
+    text-align: center; /* Centrar el contenido */
+}
+
+.foto-presentacion {
+   
+}
+
+.texto-presentacion {
+    margin-top: 20px; /* Espacio entre la foto y el texto */
+}
+
+/* Aumentar el espacio entre secciones */
+section {
+    margin-bottom: 50px; 
+}
+
+body {
+    padding-top: 50px; /* Espacio en la parte superior */
+    padding-bottom: 50px; /* Espacio en la parte inferior */
+}
 
 
